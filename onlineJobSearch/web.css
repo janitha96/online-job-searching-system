@@ -1,0 +1,977 @@
+
+body{
+	
+	margin: 0px;
+}
+/*.main_container{
+	
+
+	background-size: cover;
+	
+
+}*/
+
+#logInText{
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #104d6b;
+}
+#logSubHome{
+	background-color: #f9f9f9;
+	height: 400px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+#logInTextFields{
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}
+#logingPageText{
+		font-size: 13px;
+	color: black;
+	
+}
+#loginButton{
+	color: #2b2b2b;
+	font-weight: bold;
+	background-color: #a7bec9;
+	margin-top: -10px;
+
+}
+#loginButton:hover{
+
+	background-color: #a7bec9;
+	text-decoration: none;
+	
+}
+#logInTextBox{
+	height: 30px;
+	border-radius: 0px;
+	border-color: #c6cacc;
+}
+#signSubHome{
+	background-color: white;
+	height: 500px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+placeholder
+#rif_link{
+	color: white;
+	font-size: 20px;
+	color: black;
+}
+.log_reg_links{
+	text-decoration: none;
+	color: white;
+}
+.log_reg_links:hover{
+	text-decoration: none;
+	color: white;
+}
+#rest_text{
+	
+	text-align: center;
+	padding-top: 180px;
+	color: white;
+	
+	font-family: sans-serif;
+
+}
+#con{
+	margin-top: 40px;
+	
+}
+#search_id{
+	height: 50px;
+	background-color: #f0f0f0;
+	border-bottom-left-radius: 21px;
+	border-top-left-radius: 21px;
+
+}
+#searchbutton_id{
+	font-family: sans-serif;
+	color: white;
+	background-color: #941212;
+	border: none;
+	border-top-right-radius: 21px;
+	border-bottom-right-radius: 21px;
+}
+#searchbutton_id:hover{
+	background-color: #b02828;
+	color: #dfdfdf;
+}
+#becomeahost{
+	margin-top: 20px;
+	background-color:  #941212;
+	color: white;
+	border-color:  #941212;
+}
+#becomeahost:hover{
+	background-color: #b02828;
+	color: #dfdfdf;
+}
+#host{
+	color: white;
+}
+#middle_container{
+	background-color: #f0f0f0;
+}
+#footer{
+	background-color: #f0f0f0;
+}
+
+.footer_links{
+
+	color: black;
+}
+.footer_links:hover{
+	text-decoration: none;
+	color: black;
+}
+.footerClass{
+	font-size: 12px;
+}
+#navBarcolor{
+	background-color: #e1e1e1;
+
+}
+#homeErrorsMsg{
+		color: white;
+	background-color:rgba(255,0,0,0.5);
+	  font-family: sans-serif;
+	   padding:2px 20px; 
+	   border-radius:3px;
+	   margin-top: 10px;
+}
+#withOutSesssionRestText{
+
+	margin-top: 180px;
+
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;
+	border:2px solid white;
+	border-radius: 30px;
+}
+#withOutSesssionRestText:hover{
+text-decoration: none;
+background-color: white;
+color: #4d4d4d;
+border:2px solid #4d4d4d;
+ transition:  1s ;
+  transition: border 2s ;
+}
+
+.images{
+	background-image: url("img/backimg3.jpg");
+	 background-size: cover;
+	 height: 400px;
+	/* background-color: red;*/
+}
+#withOutSessionSearchId{
+	height: 35px;
+	background-color: #f0f0f0;
+
+	border-radius: 30px;
+}
+#withOutSessionCheckInOut{
+		height: 35px;
+	background-color: #f0f0f0;
+
+	border-radius: 30px;
+}
+#withOutSessionSelectAdulChildRoom{
+			height: 35px;
+	background-color: #f0f0f0;
+
+	border-radius: 30px;
+}
+#sessionSearchId{
+	height: 35px;
+	background-color: #f0f0f0;
+
+	border-radius: 30px;
+}
+/*header css..............................................................................................................*/
+#log_button{
+	background-color: #838383;
+	border-color: #838383;
+margin: 10px;
+}
+#log_button:hover{
+	background-color: #909090;
+}
+#headerColor{
+background-color: transparent;
+}
+#signin_button{
+	 
+	  font-family: "Roboto", Helvetica, Arial;
+	  font-size: 12px;
+	 color: #e7e7e7;
+	 font-weight:bold;
+	background-color: transparent;
+	border:2px solid #f2f2f2;
+	padding: 3px 15px 3px 15px;
+	border-radius: 13px;
+}
+#signin_button:hover{
+
+    font-family: "Roboto", Helvetica, Arial;
+	font-size: 12px;
+	background-color: #e7e7e7;
+	color: #4d4d4d;
+	 font-weight: bold;
+	border:2px solid rgba(0,0,0,0.5);
+	padding: 3px 15px 3px 15px;
+	border-radius: 13px;
+	text-decoration: none;
+  transition: 1s ;
+
+}
+
+/*log in css..............................................................................................................*/
+
+/* Made with love by Mutiullah Samim*/
+
+#container_login{
+	background-image: url('img/backgroundimg3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+
+height: 643px;
+font-family: 'Numans', sans-serif;
+}
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #b02828;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+#container_login{
+background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("img/backimg10.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+height: 643px;
+font-family: 'Numans', sans-serif;
+}
+
+#login_card{
+height: 400px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.1) !important;
+}
+
+
+
+#login_card h4{
+color: white;
+}
+
+/*sign up css.........................................................................................................*/
+
+#container_signup{
+background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("img/backimg10.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+height: 643px;
+font-family: 'Numans', sans-serif;
+}
+.container{
+height: 100%;
+align-content: center;
+}
+
+#signup_card{
+height: 600px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.1) !important;
+}
+
+
+
+#signup_card h3{
+color: white;
+}
+
+
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+#sign_btn{
+color: black;
+background-color: #b02828;
+width: 100px;
+bottom: 20px;
+}
+
+#sign_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+#placeholder_text{
+	font-family: sans-serif;
+	font-size: 12px;
+	border: 1px solid #909090;
+	height: 20px;
+	border-radius: 0px;
+
+}
+#signup_placeholder_text{
+	font-family: sans-serif;
+	font-size: 15px;
+	border: 1px solid #909090;
+	height: 25px;
+	border-radius: 0px;
+
+}
+
+/*account css.............................................................................................................*/
+.view {
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("img/backimage4.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+   
+}
+/*#navBarLinks{
+	color: black;
+	font-size: 13px;
+	margin-right: 7px;
+}
+#navBarLinks:hover{
+	
+	padding: 4px 4px;
+	
+	border: 2px solid purple;
+	color: grey;
+	transition: .5s
+
+}*/
+
+input[type=text]  {
+	border-radius: 0px;
+	 background: transparent;
+	 color: black;
+	 border:1px solid  #c6cacc;
+	 height: 25px;
+	font-size: 13px;
+}
+input[type=date]{
+	border-radius: 0px;
+	 background: transparent;
+	 color: black;
+	 border:1px solid white;
+}
+input[type=password]{
+	border-radius: 0px;
+	 background: transparent;
+	  border:1px solid  #c6cacc;
+	   height: 25px;
+
+	
+}
+input :: placeholder{
+	color: red;
+}
+#dropdownLinks{
+	color: black;
+}
+#account_search_texts{
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#select_adul_child_room{
+	border:1px solid  #c6cacc;
+	border-radius: 0px;
+ background-color: transparent;
+ color: grey;
+ height: 30px;
+ font-size: 13px;
+}
+#search_button1{
+	padding: 8px 50px 8px 50px;
+	  font-family: "Roboto", Helvetica, Arial;
+	background-color: transparent;
+	border:2px solid #f2f2f2;
+	font-weight: bold;
+}
+#search_button1:hover{
+	color: #4d4d4d;
+	font-weight: bold;
+	  transition: background-color 1s ;
+	background-color: #e7e7e7;
+	border:2px solid  rgba(0,0,0,0.5);
+	transition: border 1s ;
+
+
+}
+#accountAlertBox{
+	border:0px;
+	color: black;
+	font-weight: bold;
+}
+#middleContainer{
+	background-color: #fbfbfb;
+}
+#accountPageSeeMoreButton{
+	background-color: #941212;
+	border-color: #941212;
+}
+#accountPageSeeMoreButton:hover{
+	background-color: #909090;
+}
+
+/*become a host css..............................................................................................................*/
+#becomeahost_text{
+	font-weight: bold;
+	font-size: 12px;
+}
+#become_a_host_common_text{
+	color: #3984a1;
+	/*font-size: 15px;*/
+	font-weight: bold;
+	font-size: 12px;
+}
+
+p{
+	font-size: 15px;
+}
+
+
+#profile2phpImages{
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+#accountphp_casorole_inner{
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+}
+#insertSubmitBtn{
+	background-color: #941212;
+	border-color: #941212;
+}
+#insertSubmitBtn:hover{
+	background-color: #909090;
+}
+#inputTypeCss{
+	border-radius: 0px;
+	 background: transparent;
+	 color: black;
+	 border:1px solid  #c6cacc;
+	 font-size: 13px;
+}
+#amentyties{
+	font-size: 13px;
+}
+/*
+.heading-box h2{ width:100%; color: red; }
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+*/
+/*************************************************************************************************************************************88*/
+/*image uploader*/
+
+
+
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+.red{
+	background-color: grey;
+	margin: 10px;
+}
+/*update css.........................................................................................................................*/
+#updateLinks{
+	padding: 5px 8px 5px 8px;
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+	font-size: 12px;
+	margin-top: -10px;
+}
+
+#updateDivColour{
+	background-color: white;
+	margin-top: 10px;
+}
+#container_fluid_colour{
+	background-color: white;
+}
+#updateLinks{
+	background-color: #941212;
+	text-decoration: none;
+}
+#updateLinks:hover{
+	text-decoration: none;
+	background-color: #909090;
+
+}
+#updateTextCss{
+	border:1px solid #909090;
+	border-radius: 0px;
+	color: black;
+}
+/*#update_buttons{
+	background-color: #941212;
+	border-color: #941212;
+}
+#update_buttons:hover{
+	background-color: #909090;
+}*/
+#warningText{
+	color: red;
+	font-weight: bold;
+}
+/*update province..................................................................................................................*/
+#province{
+	border-radius: 0px;
+}
+#provinceModel{
+	border-radius: 0px;
+}
+/*your booking css....................................................................................................................*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#update2PhpSucccessMsg{
+	color: #28C76F;
+	 background-color:green;
+	  font-family: sans-serif;
+	   padding:2px 20px; 
+	   border-radius:3px;
+}
+#update2ErrorsMsg{
+	color: #28C76F;
+	 background-color:red;
+	  font-family: sans-serif;
+	   padding:2px 20px; 
+	   border-radius:3px;
+}
+/*booking css...............................................................................................................................*/
+#bookingPageCss{
+	background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("img/backimage4.jpg");
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+#makeYourResve{
+	color: white;
+	text-align: center;
+	padding-top: 180px;
+}
+
+#bookingTextCss{
+	border:1px solid #909090;
+	border-radius: 0px;
+	color: black;
+}
+#bookingLableTextCss{
+	color: black;
+}
+
+/*..hotelDetailCss.....................................................................................................................................*/
+
+#hotelDetails_casorole_inner{
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+}
+#homeSeeMoreButton{
+	width: 100px;
+	border-radius: 15px;
+	color: black;
+	background-color: #e7e7e7;
+	border: 2px solid #f2f2f2;
+	
+	
+}
+#homeSeeMoreButton:hover{
+	background-color: #767676;
+	color: white;
+}
+
+/*get method css..................................................................................................................*/
+#getMethodCss{
+	color: red;
+	background-color:rgba(255,0,0,0.5); 
+	padding:2px 20px;
+	 font-family: sans-serif;
+	 border-radius:3px;
+}
+/*signup get method css.........................................................................................................*/
+
+#signupPhpGetCss{
+		color: red;
+	background-color:rgba(255,0,0,0.5); 
+	padding:5px 20px;
+	 font-family: sans-serif;
+	 border-radius:3px;
+}
+
+/*update 2 php css.............................................................................................................*/
+
+#update22phpImages{
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+}
+#bookingConfirmation{
+		background-color: #941212;
+	border-color: #941212;
+	margin-top:  20px ;
+
+}
+#bookingConfirmation:hover{
+	background-color: #909090;
+}
+#booking{
+			background-color: #941212;
+	border-color: #941212;
+}
+#booking:hover{
+	background-color: #909090;
+}
+#bookingConformationTextCss{
+	border: 1px solid grey;
+	margin-top: 10px;
+	color: black;
+}
+.bookingConformationArticalCss{
+	background-color: rgba(255,255,255,0.7);
+	 border-radius: 6px;
+	 border:1px solid white;
+}
+#bookingConformationRowCss{
+	margin-top: 10px;
+}
+
+.zna2{	text-decoration: none;	background: #aa0044; padding: 6px; margin: 5px;	color: #fff;	float: left;}
+.zna3{background: #000;}
+.zn3{	position: relative;	margin-left: 100px;}
+
+logInTextFields
+
+
+
+
+account_search_texts
+
+
+
+
+/* Latest compiled and minified CSS included as External Resource*/
+
+/* Optional theme */
+
+/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
+
+.stepwizard-step p {
+    margin-top: 0px;
+    color:#666;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+    filter: alpha(opacity=100) !important;*/
+}
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity:1 !important;
+    color:#bbb;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+  
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 10px;
+}
+
+
+#pic1{
+     display: none;
+ }
+       
+.newbtn1{
+  cursor: pointer;
+}
+#blah1{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+#pic2{
+     display: none;
+ }
+       
+.newbtn2{
+    cursor: pointer;
+}
+#blah2{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+
+#pic3{
+     display: none;
+ }
+       
+.newbtn3{
+    cursor: pointer;
+}
+#blah3{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+#pic4{
+     display: none;
+ }
+       
+.newbtn4{
+        cursor: pointer;
+}
+#blah4{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+
+#pic5{
+     display: none;
+ }
+       
+.newbtn5{
+         cursor: pointer;
+}
+#blah5{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+#pic6{
+     display: none;
+}
+       
+ .newbtn6{
+         cursor: pointer;
+}
+#blah6{
+  width:250px;
+  height:150px;
+  margin-top:20px;
+}
+
+
+#viewProfileText{
+	font-size: 15px;
+    line-height: 1.43;
+	
+}
+
+#priceText{
+	width: 250px;
+	margin-left: 0px;
+	border:3px solid #eff086;
+	background-color: #eff0b4;
+	border-radius: 5px;
+}
+
+#updateProfileText{
+		font-size: 13px;
+	font-family: sans-serif;
+	color: black;
+}
+
+#notificationLable{
+	background-color: black;
+	border-radius: 15px;
+	margin: 10px;
+	color: white;
+	font-size: 12px;
+	padding: 5px;
+}
+
+
+
+
+
+
+
